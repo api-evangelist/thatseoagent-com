@@ -1,4 +1,4 @@
-# thatseoagent-com
+# That SEO Agent
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-thatseoagent-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://thatseoagent.com/
+That SEO Agent provides an open-source MCP server that enables AI assistants like Claude Code and Cursor to access Google Search Console, Analytics, and PageSpeed data directly from a user's site. It runs locally with no sign‑up, no accounts, and no paid tiers, offering tools for SEO analysis, on‑page audits, traffic diagnostics, and keyword discovery, all integrated via OAuth to Google APIs.
+
+**Areas:** SEO Tools · Open Source · MCP Server · PageSpeed Insights
+
+## That SEO Agent on APIs.io
+
+Everything profiled for That SEO Agent is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/thatseoagent-com/](https://apis.io/providers/thatseoagent-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [That SEO Agent Discovery API](https://apis.io/apis/thatseoagent-com/thatseoagent-com-discovery-api/) — Unauthenticated documents describing this service.
+- [That SEO Agent MCP API](https://apis.io/apis/thatseoagent-com/thatseoagent-com-mcp-api/) — The Model Context Protocol endpoint — where the tools live.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [That SEO Agent Agentic Access](https://apis.io/agentic-access/thatseoagent-com/thatseoagent-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentSkillsIndex](https://apis.io/schemas/thatseoagent-com/thatseoagent-com-agent-skills-index/)
+- [ApiCatalog](https://apis.io/schemas/thatseoagent-com/thatseoagent-com-api-catalog/)
+- [JsonRpcRequest](https://apis.io/schemas/thatseoagent-com/thatseoagent-com-json-rpc-request/)
+- [JsonRpcResponse](https://apis.io/schemas/thatseoagent-com/thatseoagent-com-json-rpc-response/)
+- [McpServerCard](https://apis.io/schemas/thatseoagent-com/thatseoagent-com-mcp-server-card/)
+- [OAuthAuthorizationServerMetadata](https://apis.io/schemas/thatseoagent-com/thatseoagent-com-oauth-authorization-server-metadata/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Thatseoagent Com Context](https://apis.io/jsonld/thatseoagent-com/thatseoagent-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [That SEO Agent API Rules](https://apis.io/rules/thatseoagent-com/thatseoagent-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [That SEO Agent Authentication](https://apis.io/security/thatseoagent-com/thatseoagent-com-authentication/)
+- [That SEO Agent Domain Security](https://apis.io/security/thatseoagent-com/thatseoagent-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://thatseoagent.com/)
+- [Documentation](https://thatseoagent.com/en/docs)
+- [Getting started](https://thatseoagent.com/en/connect-mcp-server)
+- [Blog](https://thatseoagent.com/en/blog)
+- [Terms of service](https://thatseoagent.com/en/terms)
+- [Privacy policy](https://thatseoagent.com/en/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.5** — developing · rubric 0.28.0 · scored 2026-11-26
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 62.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 27.7 |
+
+**Agent readiness 61.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/thatseoagent-com/](https://apis.io/providers/thatseoagent-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for That SEO Agent: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/thatseoagent-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
